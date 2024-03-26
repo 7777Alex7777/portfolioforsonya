@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: 'Oswald', sans-serif, 'Times New Roman';
+    font-family: 'Times New Roman';
     color: #ffffff;
     background-color: #000000;
 }
@@ -14,7 +14,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Times New Roman';
 }
 .menu {
     font-family: 'Times New Roman';
@@ -28,7 +28,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     color: #000000;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Times New Roman';
 }
 
 @media (max-width:768px) {
@@ -60,6 +60,7 @@ body{
         align-items: center;
         justify-content: center;
         margin-bottom: 2%;
+        margin-top: 5%;
     }
 
     .object {
@@ -100,6 +101,7 @@ body{
         margin-left: 1.4%;
         text-decoration: none;
         color: #ffffff;
+        margin-left: 4%;
     }
     
     .download {
@@ -119,6 +121,7 @@ body{
         align-items: center;
         justify-content: center;
         margin-bottom: 2%;
+        margin-top: 2%;
     }
 
     .object {

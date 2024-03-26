@@ -3,9 +3,8 @@
     padding: 0;
 }
 body{
-    font-family: 'Oswald', sans-serif, 'Times New Roman';
-    color: #ff0000;
-    background-color: #ff0000;
+    font-family: 'Times New Roman';
+    background-color: #FF2121;
 }
 .menu {
     font-family: 'Times New Roman';
@@ -39,7 +38,7 @@ body{
         color: #000000;
         position: absolute;
         top: 1.5%;  
-        left: 7.7%;
+        left: 5.7%;
     }
 
     .font-SITAL > img {
