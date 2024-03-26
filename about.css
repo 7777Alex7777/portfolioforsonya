@@ -4,8 +4,10 @@
 }
 body{
     font-family: 'Oswald', sans-serif, 'Times New Roman';
-    color: #ff0000;
+    color: hsl(0, 100%, 50%);
+    background-color: #D4FF5B;
 }
+
 .header {
     background-color: #ff0000;
     width: auto;
@@ -21,16 +23,34 @@ body{
 .logo {
     font-family: 'Times New Roman';
     font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 53px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
     text-align: center;
-    text-transform: uppercase;
     color: #000000;
     font-family: 'Oswald', sans-serif;
+    text-decoration: none;
 }
 
 main {
     background-color: #D4FF5B;
     color: #000000;
+}
+
+.container {
+    padding-top: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.about {
+    margin-top: 5%;
+}
+
+.contacts {
+    margin-top: 10%;
+}
+
+.email {
+    margin-top: 5%;
 }
