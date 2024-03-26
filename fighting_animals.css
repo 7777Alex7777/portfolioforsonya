@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif, 'Times New Roman';
+    color: #000000;
+    background-color: #FFFFFF;
+}
+.header {
+    background-color: #ffffff;
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.menu {
+    font-family: 'Times New Roman';
+}
+.logo {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width:768px) {
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 24px;
+        line-height: 27.6px;
+        margin-top: 2.9%;
+        margin-left: 7.7%;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 24px;
+        line-height: 27.6px;
+        margin-left: 7.7%;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .objects {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .object {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 3.5%;
+    }
+
+    .name > img {
+        max-width: 90.4%;
+    }
+    .rat > img {
+        max-width: 100%;
+    }
+
+    .dog > img {
+        max-width: 70.3%;
+    }
+
+    .bat > img {
+        max-width: 77.6%;
+    }
+
+    .bees > img {
+        max-width: 58.2%;
+    }
+
+    .pig > img {
+        max-width: 89.7%;
+    }
+}
+
+@media (min-width:769px) {
+    .container {
+        position: relative;
+        aspect-ratio: 1440/1430;
+    }
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        margin-top: 2.9%;
+        margin-left: 1.4%;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        margin-left: 1.4%;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .name > img {
+        max-width: 43%;
+        /*max-height: 8.4%;*/
+    }
+    .name {
+        position: absolute;
+        top: 8.1%;  
+        left: 24.2%;
+    }
+
+    .rat > img {
+        max-width: 46.5%;
+        /*max-height: 20.2%;*/
+    }
+    .rat {
+        position: absolute;
+        top: 20.3%;
+        left: 4.2%;
+    }
+
+    .dog > img {
+        max-width: 62.2%;
+        /*max-height: 37.9%;*/
+    }
+    .dog {
+        position: absolute;
+        top: 24.3%;
+        left: 60%;
+    }
+
+    .bees > img {
+        max-width: 30.4%;
+        /*max-height: 13.6%;*/
+    }
+    .bees {
+        position: absolute;
+        top: 44.6%;
+        left: 33.6%;
+    }
+
+    .pig > img {
+        max-width: 30.7%;
+        /*max-height: 32.4%;*/
+    }
+    .pig {
+        position: absolute;
+        top: 66.3%;
+        left: 6.1%;
+    }
+
+    .bat > img {
+        max-width: 55.3%;
+        /*max-height: 21.7%;*/
+    }
+    .bat {
+        position: absolute;
+        top: 70.3%;
+        left: 51.9%;
+    }
+}
+
+
+
+

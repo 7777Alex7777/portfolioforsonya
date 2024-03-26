@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif, 'Times New Roman';
+    color: #ff0000;
+}
+.header {
+    background-color: #ff0000;
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.menu {
+    font-family: 'Times New Roman';
+}
+.logo {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+main {
+    background-color: #D4FF5B;
+    color: #000000;
+}

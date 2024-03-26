@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif, 'Times New Roman';
+    color: #000000;
+    background-color: #E4FF79;
+}
+
+@media (min-width:1201px) {
+    .container {
+        width: 1306px;
+        margin: 0px 67px;
+        position: relative;
+        height: 1552px;
+    }   
+
+    .about {
+        margin-top: 20px;
+        margin-left: 20px;
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+    }
+    
+    .add-about {
+        padding-top: 17px;
+    }
+    
+    .object > img {
+        max-width: 570px;
+        max-height: 410px;
+        float: left;
+    }
+    
+    .objects > img {
+        max-width: 287px;
+        max-height: 410px;
+    }
+
+    .objects {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .first {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    
+    }
+    
+    .second-three {
+        position: absolute;
+        top: 6.5%;
+        left: 50%;
+    }
+    
+    .four-five {
+        position: absolute;
+        top: 40%;
+        left: 2.6%;
+    }
+    
+    .sixth {
+        position: absolute;
+        left: 56.4%;
+        top: 36.2%;
+    }
+    
+    .seven-eight {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .nine {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    }
+    
+    .ten-eleven {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .twelve-thirteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .fourteen-fifteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .sixteen-seventeen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+}
+
+@media (max-width:1200px){
+
+    .container {
+        width: 1088.4px;
+        margin-left: 49.8px;
+        margin-right: 49.8px;
+        height: 1153.2px;
+        position: relative;
+    }
+
+    .about {
+        margin-top: 20px;
+        margin-left: 20px;
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+    }
+    
+    .add-about {
+        padding-top: 17px;
+    }
+
+    .object > img {
+        max-width: 424px;
+        max-height: 305px;
+    }
+    
+    .objects > img {
+        max-width: 214px;
+        max-height: 305px;
+    }
+
+    .objects {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .first {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    
+    }
+    
+    .second-three {
+        position: absolute;
+        top: 6.5%;
+        left: 50%;
+    }
+    
+    .four-five {
+        position: absolute;
+        top: 40%;
+        left: 2.6%;
+    }
+    
+    .sixth {
+        position: absolute;
+        left: 56.4%;
+        top: 36.2%;
+    }
+    
+    .seven-eight {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .nine {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    }
+    
+    .ten-eleven {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .twelve-thirteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .fourteen-fifteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .sixteen-seventeen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+}
+
+@media (max-width:992px){
+    .container {
+        width: 899.7px;
+        height: 890.9px;
+        position: relative;
+        margin-left: 38.5px;
+    }
+
+    .about {
+        margin-top: 20px;
+        margin-left: 20px;
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+    }
+    
+    .add-about {
+        padding-top: 17px;
+    }
+
+    .object > img {
+        max-width: 328px;
+        max-height: 265px;
+        float: left;
+    }
+    
+    .objects > img {
+        max-width: 165px;
+        max-height: 265px;
+        float: left;
+    }
+
+    .objects {
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .first {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    
+    }
+    
+    .second-three {
+        position: absolute;
+        top: 6.5%;
+        left: 50%;
+    }
+    
+    .four-five {
+        position: absolute;
+        top: 40%;
+        left: 2.6%;
+    }
+    
+    .sixth {
+        position: absolute;
+        left: 56.4%;
+        top: 36.2%;
+    }
+    
+    .seven-eight {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .nine {
+        position: absolute;
+        top: 2.8%;
+        left: 0;
+    }
+    
+    .ten-eleven {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .twelve-thirteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .fourteen-fifteen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+    
+    .sixteen-seventeen {
+        position: absolute;
+        left: 17.4%;
+        top: 70%;
+    }
+}
+
+@media (max-width:768px){
+    .container {
+        max-width: 652.8px !important;
+        margin-left: 32px;
+        margin-right: 32px;
+        display: flex;
+        flex-direction: column !important;
+    }
+
+    .about {
+        margin-top: 20px;
+        margin-left: 20px;
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+    }
+
+    .object > img {
+        max-width: 100%;
+    }
+
+    .objects > img {
+        max-width: 51%;
+    }
+
+    .object {
+        display: block;
+    }
+
+    .objects {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+
+}
+
+.header {
+    background-color: #E4FF79;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.menu {
+    font-family: 'Times New Roman';
+}
+.logo {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+}
+

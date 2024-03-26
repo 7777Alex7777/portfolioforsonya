@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif, 'Times New Roman';
+    color: #ffffff;
+    background-color: #000000;
+}
+.header {
+    background-color: #ffffff;
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Oswald', sans-serif;
+}
+.menu {
+    font-family: 'Times New Roman';
+}
+.logo {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+}
+
+@media (max-width:768px) {
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 24px;
+        line-height: 27.6px;
+        margin-top: 2.9%;
+        margin-left: 7.7%;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 24px;
+        line-height: 27.6px;
+        margin-left: 7.7%;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .objects {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+
+    .object {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2%;
+    }
+
+    .object > img {
+        max-width: 82.5%;
+    }
+
+    .one1 > img {
+        max-width: 0;
+    }
+
+    .three1 > img {
+        max-width: 0;
+    }
+
+    .six1 > img {
+        max-width: 0;
+    }
+}
+
+@media (min-width:769px) {
+    .container {
+        position: relative;
+        aspect-ratio: 1440/1430;
+    }
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        margin-top: 2.9%;
+        margin-left: 1.4%;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        size: 16px;
+        line-height: 18.4px;
+        margin-left: 1.4%;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .objects {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2%;
+    }
+
+    .object {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 2%;
+        max-width: 82.5%;
+    }
+
+    .object > img {
+        max-width: 100%;
+    }
+
+    .one > img {
+        max-width: 0;
+    }
+
+    .three > img {
+        max-width: 0;
+    }
+
+    .six > img {
+        max-width: 0;
+    }
+
+    
+}
