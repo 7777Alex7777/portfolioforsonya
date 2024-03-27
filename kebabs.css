@@ -92,7 +92,7 @@ body{
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 16px;
+        font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
         color: #ffffff;
@@ -101,7 +101,7 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 16px;
+        font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
         color: #ffffff;
