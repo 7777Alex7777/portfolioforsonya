@@ -32,24 +32,26 @@ body{
 }
 
 @media (max-width:768px) {
+    .about1 {
+        margin-top: 63px;
+        margin-left: 33px;
+        width: 84%;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 20.6px;
-        margin-top: 2.9%;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #ffffff;
-        margin-top: 10%;
     }
     
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 20.6px;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -79,15 +81,19 @@ body{
 @media (min-width:769px) {
     .container {
         position: relative;
-        aspect-ratio: 1440/1430;
+        aspect-ratio: 1440/950;
     }
+
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-top: 2.9%;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #ffffff;
     }
@@ -97,7 +103,6 @@ body{
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #ffffff;
     }
@@ -118,6 +123,7 @@ body{
         padding-top: 2%;
         max-width: 37%;
         margin-top: 2%;
+        padding-left: 10%;
     }
 
     .object > img {

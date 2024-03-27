@@ -29,16 +29,16 @@ body{
     }
 
     .about {
-        width: 84.6%;
+        width: 84%;
         font: 'Times New Roman';
         font-weight: 400;
-        size: 20px;
+        font-size: 20px;
         line-height: 23px;
         text-decoration: none;
         color: #000000;
         position: absolute;
-        top: 1.5%;  
-        left: 5.7%;
+        margin-top: 63px;
+        margin-left: 33px   ;
     }
 
     .font-SITAL > img {
@@ -181,17 +181,20 @@ body{
         aspect-ratio: 1440/966;
     }
 
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
     .about {
         width: 84.6%;
         font: 'Times New Roman';
         font-weight: 400;
         size: 20px;
-        line-height: 23px;
+        line-height: 18.4px;
         text-decoration: none;
         color: #000000;
-        position: absolute;
-        top: 2.5%;  
-        left: 1.2%;
+
     }
 
     .font-SITAL > img {

@@ -32,13 +32,16 @@ body{
 }
 
 @media (max-width:768px) {
+    .about1 {
+        margin-top: 63px;
+        margin-left: 33px;
+    }
     .about {
+        width: 84%;
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-top: 2.9%;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #000000;
     }
@@ -46,9 +49,8 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #000000;
     }
@@ -74,9 +76,9 @@ body{
     }
 
     .one {
-        width: 95%;
-        margin-bottom: 0;
-        margin-left: 3%;
+        width: 77%;
+        margin-left: 11%;
+        margin-top: 15%;
     }
 
     .two {
@@ -114,13 +116,16 @@ body{
         aspect-ratio: 1440/3248;
     }
 
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-top: 2.9%;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #000000;
     }
@@ -130,7 +135,6 @@ body{
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #000000;
     }

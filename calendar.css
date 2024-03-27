@@ -32,13 +32,22 @@ body{
 }
 
 @media (max-width:768px) {
+    .about1 {
+        margin-top: 63px;
+        margin-left: 33px;
+        width: 84%;
+    }
+
+    .video {
+        margin-top: 10%;
+        margin-left: 33px;
+        margin-bottom: 10%;
+    }
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-top: 2.9%;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -46,9 +55,8 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #ffffff;
     }
@@ -59,19 +67,25 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 2%;
-        margin-top: 5%;
     }
 
     .object {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2%;
+    }
+
+    .one {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .object > img {
         max-width: 82.5%;
+    }
+
+    .ob {
+        padding-top: 5px;
     }
 
     .one1 > img {
@@ -92,16 +106,19 @@ body{
         position: relative;
         aspect-ratio: 1440/1430;
     }
+
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-top: 2.9%;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #ffffff;
-        margin-left: 4%;
     }
     
     .download {
@@ -109,7 +126,6 @@ body{
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #ffffff;
     }
@@ -121,7 +137,6 @@ body{
         align-items: center;
         justify-content: center;
         margin-bottom: 2%;
-        margin-top: 2%;
     }
 
     .object {

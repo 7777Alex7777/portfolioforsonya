@@ -32,13 +32,17 @@ body{
 }
 
 @media (max-width:768px) {
+    .about1 {
+        margin-top: 63px;
+        margin-left: 33px;
+        width: 84%;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-top: 2.9%;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #000000;
     }
@@ -46,9 +50,8 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        size: 24px;
-        line-height: 27.6px;
-        margin-left: 7.7%;
+        font-size: 20px;
+        line-height: 23px;
         text-decoration: none;
         color: #000000;
     }
@@ -71,9 +74,11 @@ body{
 
     .name > img {
         max-width: 90.4%;
+        margin-top: 3%;
     }
     .rat > img {
-        max-width: 100%;
+        max-width: 95%;
+        padding-left: 5%;
     }
 
     .dog > img {
@@ -98,13 +103,17 @@ body{
         position: relative;
         aspect-ratio: 1440/1430;
     }
+
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
     .about {
         font: 'Times New Roman';
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-top: 1.5%;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #000000;
     }
@@ -114,7 +123,6 @@ body{
         font-weight: 400;
         size: 16px;
         line-height: 18.4px;
-        margin-left: 1.4%;
         text-decoration: none;
         color: #000000;
     }
