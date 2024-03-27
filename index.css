@@ -37,7 +37,7 @@ body{
         text-decoration: none;
         color: #000000;
         position: absolute;
-        margin-top: 43px;
+        margin-top: 35px;
         margin-left: 33px   ;
     }
 
@@ -176,7 +176,6 @@ body{
 
 @media (min-width:769px) {
     .container {
-        margin-bottom: 2%;
         position: relative;
         aspect-ratio: 1440/966;
     }

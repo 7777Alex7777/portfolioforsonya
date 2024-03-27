@@ -41,7 +41,7 @@ body{
         margin-bottom: 10%;
     }
     .about1 {
-        margin-top: 63px;
+        margin-top: 35px;
         margin-left: 33px;
         width: 84%;
     }
@@ -120,25 +120,25 @@ body{
 
     .two {
         position: absolute;
-        top: 4.2%;
+        top: 5.2%;
         left: 50%;
     }
 
     .three {
         position: absolute;
-        top: 38.2%;
+        top: 39.2%;
         left: 2.6%;
     }
 
     .four {
         position: absolute;
-        top: 34%;
+        top: 35%;
         left: 56.4%;
     }
 
     .five {
         position: absolute;
-        top: 71.2%;
+        top: 69.2%;
         left: 17.5%;
     }
 }
