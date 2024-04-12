@@ -99,9 +99,12 @@ body{
 }
 
 @media (min-width:769px) {
-    .container {
+    .frame {
         position: relative;
-        aspect-ratio: 1440/1430;
+        aspect-ratio: 1311/1276;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 1.4%;
     }
 
     .about1 {
@@ -127,64 +130,50 @@ body{
         color: #000000;
     }
 
-    .name > img {
-        max-width: 43%;
-        /*max-height: 8.4%;*/
+    .object > img {
+        max-width: 100%;
     }
+
     .name {
         position: absolute;
-        top: 8.1%;  
-        left: 24.2%;
+        top: 0%;  
+        left: 22%;
+        width: 36.2%;
     }
 
-    .rat > img {
-        max-width: 46.5%;
-        /*max-height: 20.2%;*/
-    }
     .rat {
         position: absolute;
-        top: 20.3%;
-        left: 4.2%;
+        top: 13.7%;
+        left: 0%;
+        width: 48.9%;
     }
 
-    .dog > img {
-        max-width: 62.2%;
-        /*max-height: 37.9%;*/
-    }
     .dog {
         position: absolute;
-        top: 24.3%;
-        left: 60%;
+        top: 18%;
+        left: 61.3%;
+        width: 30%;
     }
 
-    .bees > img {
-        max-width: 30.4%;
-        /*max-height: 13.6%;*/
-    }
     .bees {
         position: absolute;
-        top: 44.6%;
-        left: 33.6%;
+        top: 40.9%;
+        left: 32.3%;
+        width: 14.7%;
     }
 
-    .pig > img {
-        max-width: 30.7%;
-        /*max-height: 32.4%;*/
-    }
     .pig {
         position: absolute;
-        top: 66.3%;
-        left: 6.1%;
+        top: 65.2%;
+        left: 2.1%;
+        width: 33.7%;
     }
 
-    .bat > img {
-        max-width: 55.3%;
-        /*max-height: 21.7%;*/
-    }
     .bat {
         position: absolute;
-        top: 70.3%;
-        left: 51.9%;
+        top: 69.7%;
+        left: 52%;
+        width: 33.7%;
     }
 }
 

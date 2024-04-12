@@ -112,8 +112,12 @@ body{
 
 @media (min-width:769px) {
     .container {
-        position: relative;
-        aspect-ratio: 1440/3248;
+        aspect-ratio: 1311/3042;
+        display: flex;
+        flex-direction: column;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 1.8%;
     }
 
     .about1 {
@@ -139,52 +143,58 @@ body{
         color: #000000;
     }
 
+    .one-two {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        position: relative;
+        aspect-ratio: 1311/426;
+    }
+
     .object > img {
         max-width: 100%;
     }
-
+    
+    .one > img {
+        max-width: 100%;
+    }
     .one {
+        width: 35.2%;
         position: absolute;
-        width: 33.5%;
-        top: 3.7%;
-        left: 3.8%;
+        top: 0;
+        left: 0;
     }
 
+    .two > img {
+        max-width: 100%;
+    }
     .two {
+        width: 31%;
         position: absolute;
-        width: 28.2%;
-        top: 6.5%;
-        left: 42.6%;
+        top: 13.6%;
+        left: 41.9%;
     }
 
     .three {
-        position: absolute;
-        width: 61%;
-        top: 19.6%;
-        left: 28.8%;
+        width: 67%;
+        margin-top: 1.9%;
+        margin-left: 26.7%;
     }
-
-    .four {
-        width: 0;
-    }
-
-    .four1 {
-        position: absolute;
+    
+    .four-computer {
         width: 100%;
-        top: 33.9%;
+        margin-top: 1.9%;
     }
 
     .five {
-        position: absolute;
-        width: 89.5%;
-        top: 54.7%;
-        left: 5.2%;
+        width: 100%;
+        margin-top: 1.2%;
     }
 
     .six {
-        position: absolute;
-        width: 38.3%;
-        top: 75%;
-        left: 37.2%;
+        width: 42%;
+        margin-top: 1.9%;
+        margin-left: 36.1%;
     }
+    
 }

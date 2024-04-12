@@ -177,7 +177,10 @@ body{
 @media (min-width:769px) {
     .container {
         position: relative;
-        aspect-ratio: 1440/966;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 3.2%;
+        aspect-ratio: 1311/986;
     }
 
     .about1 {
@@ -196,136 +199,99 @@ body{
 
     }
 
-    .font-SITAL > img {
-        width: 100%;
+    .object > img {
+        max-width: 100%;
     }
 
     .font-SITAL {
-        width: 9.6%;
+        width: 10.5%;
         position: absolute;
-        top: 15.9%;  
-        left: 4.9%;
-    }
-
-    .calendar-WAP > img {
-        width: 100%;
+        top: 5.9%;  
+        left: 0.4%;
     }
 
     .calendar-WAP {
-        width: 17.6%;
+        width: 19.4%;
         position: absolute;
-        top: 8%;  
-        left: 24%;
-    }
-
-    .fighting-animals > img {
-        width: 100%;
+        top: 0%;
+        left: 21.4%;
     }
 
     .fighting-animals {
-        width: 26.8%;
+        width: 29.4%;
         position: absolute;
-        top: 7.8%;  
-        left: 47.7%;
-    }
-
-    .poster-kebabs-flowers-fireworks > img {
-        max-width: 100%;
+        top: 0%;  
+        left: 47.4%;
     }
 
     .poster-kebabs-flowers-fireworks {
-        max-width: 11.5%;
+        width: 12.6%;
         position: absolute;
-        top: 9.9%;  
-        left: 78.6%;
-    }
-
-    .Zin-kitchen-for-16 > img {
-        max-width: 100%;
+        top: 0%;  
+        left: 81.4%;
     }
 
     .Zin-kitchen-for-16 {
-        max-width: 16.9%;
+        width: 18.6%;
         position: absolute;
-        top: 37.9%;  
-        left: 6.7%;
-    }
-
-    .posters > img {
-        max-width: 100%;
+        top: 27.4%;  
+        left: 2.4%;
     }
 
     .posters {
-        width: 15.1%;
+        max-width: 8.8%;
         position: absolute;
-        top: 29.9%;  
-        left: 30.9%;
-    }
-
-    .game-diagrams > img {
-        max-width: 100%;
+        top: 27.5%;  
+        left: 33.3%;
     }
 
     .game-diagrams {
-        width: 15.5%;
+        width: 16.6%;
         position: absolute;
-        top: 37.9%;  
-        left: 54.4%;
-    }
-
-    .visual-research > img {
-        max-width: 100%;
+        top: 27.5%;  
+        left: 54.5%;
     }
 
     .visual-research {
-        width: 8.2%;
+        width: 9%;
         position: absolute;
-        top: 43.9%;  
-        left: 84.3%;
-    }
-
-    .illustrations > img {
-        max-width: 100%;
+        top: 33.3%;  
+        left: 87.6%;
     }
 
     .illustrations {
-        width: 7.2%;
+        width: 7.9%;
         position: absolute;
-        top: 67.9%;  
-        left: 8.6%;
-    }
-
-    .chess > img {
-        max-width: 100%;
+        top: 55%;  
+        left: 4.5%;
     }
 
     .chess {
-        width: 13.5%;
+        width: 14.8%;
         position: absolute;
-        top: 61.9%;  
-        left: 25.5%;
-    }
-
-    .boovki > img {
-        max-width: 100%;
+        top: 50.9%;  
+        left: 23%;
     }
 
     .boovki {
-        width: 14.1%;
+        width: 16.6%;
         position: absolute;
-        top: 61.9%;  
-        left: 46.7%;
-    }
-
-    .tuesday > img {
-        max-width: 100%;
+        top: 50.9%;  
+        left: 45.8%;
     }
 
     .tuesday {
-        width: 13.1%;
+        width: 14.3%;
         position: absolute;
-        top: 61.9%;  
-        left: 71.3%;
+        top: 50.9%;  
+        left: 73.3%;
+    }
+
+    .fox-elephant {
+        width: 24.2%;
+        position: absolute;
+        top: 76.5%;
+        left: 4.5%;
     }
 }
 

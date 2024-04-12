@@ -4,8 +4,8 @@
 }
 body{
     font-family: 'Times New Roman';
-    color: #ffffff;
-    background-color: #000000;
+    color: #000000;
+    background-color: #FFFFFF;
 }
 .header {
     background-color: #ffffff;
@@ -44,7 +44,7 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     
     .download {
@@ -53,7 +53,7 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
 
     .objects {
@@ -62,26 +62,49 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 10%;
-        margin-top: 10%;
+        margin-top: 3%;
     }
 
     .object {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2%;
+        padding-bottom: 3.5%;
     }
 
-    .object > img {
-        max-width: 82.5%;
+    .name > img {
+        max-width: 90.4%;
+        margin-top: 3%;
+    }
+    .rat > img {
+        max-width: 95%;
+        padding-left: 5%;
+    }
+
+    .dog > img {
+        max-width: 70.3%;
+    }
+
+    .bat > img {
+        max-width: 77.6%;
+    }
+
+    .bees > img {
+        max-width: 58.2%;
+    }
+
+    .pig > img {
+        max-width: 89.7%;
     }
 }
 
 @media (min-width:769px) {
     .frame {
         position: relative;
-        aspect-ratio: 1311/774;
+        aspect-ratio: 1311/2196;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 1.4%;
     }
 
     .about1 {
@@ -95,7 +118,7 @@ body{
         font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     
     .download {
@@ -104,29 +127,72 @@ body{
         font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
-        color: #ffffff;
-    }
-
-    .frame {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2%;
-    }
-
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 2%;
-        max-width: 37%;
-        margin-top: 2%;
-        padding-left: 10%;
+        color: #000000;
     }
 
     .object > img {
         max-width: 100%;
     }
+
+    .one {
+        position: absolute;
+        top: 0%;  
+        left: 3%;
+        width: 26.2%;
+    }
+
+    .two {
+        position: absolute;
+        top: 2.6%;
+        left: 34.9%;
+        width: 64%;
+    }
+
+    .three {
+        position: absolute;
+        top: 36%;
+        left: 0;
+        width: 25.9%;
+    }
+
+    .four {
+        position: absolute;
+        top: 28.7%;
+        left: 27.5%;
+        width: 27.8%;
+    }
+
+    .five {
+        position: absolute;
+        top: 33.4%;
+        left: 61.6%;
+        width: 38.4%;
+    }
+
+    .six-seven {
+        position: absolute;
+        top: 52.5%;
+        left: 46.8%;
+        width: 48.2%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .eight {
+        position: absolute;
+        top: 57.7%;
+        left: 3.3%;
+        width: 39.3%;
+    }
+
+    .nine {
+        position: absolute;
+        top: 71.6%;
+        left: 49.4%;
+        width: 45.5%;
+    }
 }
+
+
+
+

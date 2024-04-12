@@ -6,9 +6,10 @@ body{
     font-family: 'Times New Roman';
     color: #ffffff;
     background-color: #000000;
+    ;
 }
 .header {
-    background-color: #ffffff;
+    background-color: #80769B;
     width: auto;
     height: 110px;
     display: flex;
@@ -38,13 +39,18 @@ body{
         width: 84%;
     }
 
+    .video {
+        margin-top: 10%;
+        margin-left: 33px;
+        margin-bottom: 10%;
+    }
     .about {
         font: 'Times New Roman';
         font-weight: 400;
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     
     .download {
@@ -53,7 +59,7 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
 
     .objects {
@@ -62,26 +68,54 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 10%;
-        margin-top: 10%;
     }
 
     .object {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2%;
+    }
+
+    .one {
+        margin-top: 10%;
+        margin-bottom: 10%;
     }
 
     .object > img {
         max-width: 82.5%;
     }
+
+    .ob {
+        padding-top: 5px;
+    }
+
+    .one1 > img {
+        max-width: 0;
+    }
+
+    .three1 > img {
+        max-width: 0;
+    }
+
+    .six1 > img {
+        max-width: 0;
+    }
 }
 
 @media (min-width:769px) {
     .frame {
-        position: relative;
-        aspect-ratio: 1311/774;
+        aspect-ratio: 1311/3538;
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 0.6%;
+    }
+
+    .video {
+        margin-left: 20px;
+        padding-bottom: 24px;
     }
 
     .about1 {
@@ -107,26 +141,17 @@ body{
         color: #ffffff;
     }
 
-    .frame {
+    .object > img {
         width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2%;
     }
 
     .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 2%;
-        max-width: 37%;
-        margin-top: 2%;
-        padding-left: 10%;
+        width: 96.6%;
+        margin-bottom: 1.6%;
     }
 
-    .object > img {
-        max-width: 100%;
+    .one {
+        margin-top: 1.8%;
     }
+
 }

@@ -4,8 +4,7 @@
 }
 body{
     font-family: 'Times New Roman';
-    color: #ffffff;
-    background-color: #000000;
+    background-color: #BEFFD0;
 }
 .header {
     background-color: #ffffff;
@@ -32,6 +31,15 @@ body{
 }
 
 @media (max-width:768px) {
+    .container {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-self: center;
+        flex-direction: column;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
     .about1 {
         margin-top: 35px;
         margin-left: 33px;
@@ -44,7 +52,7 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     
     .download {
@@ -53,35 +61,29 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #ffffff;
-    }
-
-    .objects {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10%;
-        margin-top: 10%;
+        color: #000000;
     }
 
     .object {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2%;
+        padding: 0;
+        margin: 0;
     }
 
-    .object > img {
-        max-width: 82.5%;
+    img {
+        max-width: 85%;
     }
 }
 
-@media (min-width:769px) {
-    .frame {
+@media (min-width: 769px) {
+    .container {
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 0.6%;
         position: relative;
-        aspect-ratio: 1311/774;
+        aspect-ratio: 1311/2204;
     }
 
     .about1 {
@@ -95,7 +97,7 @@ body{
         font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
     
     .download {
@@ -104,29 +106,38 @@ body{
         font-size: 16px;
         line-height: 18.4px;
         text-decoration: none;
-        color: #ffffff;
+        color: #000000;
     }
 
-    .frame {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2%;
-    }
-
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-top: 2%;
-        max-width: 37%;
-        margin-top: 2%;
-        padding-left: 10%;
-    }
-
-    .object > img {
+    .object > img{
         max-width: 100%;
+    }
+
+    .one {
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 77.7%;
+    }
+
+    .two {
+        position: absolute;
+        top: 31.5%;
+        left: 27.8%;
+        width: 72.2%;
+    }
+
+    .three {
+        position: absolute;
+        top: 56%;
+        left: 0%;
+        width: 29.8%;
+    }
+
+    .four {
+        position: absolute;
+        top: 58.7%;
+        left: 44.6%;
+        width: 45.5%;
     }
 }

@@ -103,13 +103,13 @@ body{
 
 @media (min-width:769px) {
     .frame {
-        aspect-ratio: 1311/6300;
+        aspect-ratio: 1311/3130;
         display: flex;
         flex-direction: column;
+        align-items: center;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 0.6%;
-        margin-bottom: 0.8%;
+        margin-top: 20px;
     }
 
     .video {
@@ -149,27 +149,96 @@ body{
         margin-bottom: 0.9%;
     }
 
-    .one-mobile {
-        width: 0;
-        margin: 0;
+    .one > img {
+        max-width: 100%;
     }
-
-    .two {
-        margin: 0;
-    }
-
-    .three-mobile {
-        width: 0;
-        margin: 0;
-    }
-
-    .five {
-        margin: 0;
-    }
-
-    .six-mobile {
-        width: 0;
-        margin: 0;
+    .one {
+        background-color: #ffffff;
+        width: 78.6%;
     }
     
+    .two > img {
+        max-width: 100%;
+    }
+    .three > img {
+        max-width: 100%;
+    }
+    .three {
+        padding-left: 0.6%;
+    }
+    .two-three {
+        display: flex;
+        flex-direction: row;
+        width: 78.6%;
+        padding-top: 1.9%;
+    }
+
+    .four > img {
+        max-width: 100%;
+    }
+    .five > img {
+        max-width: 100%;
+    }
+    .five {
+        padding-left: 0.6%;
+    }
+    .four-five {
+        display: flex;
+        flex-direction: row;
+        width: 78.6%;
+        padding-top: 1.9%;
+    }
+
+    .six > img {
+        max-width: 100%;
+    }
+    .seven > img {
+        max-width: 100%;
+    }
+    .seven {
+        padding-left: 0.6%;
+    }
+    .eight > img {
+        max-width: 100%;
+    }
+    .eight {
+        padding-left: 0.6%;
+    }
+    .six-seven-eight {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        padding-top: 1.9%;
+    }
+
+    .nine > img {
+        max-width: 100%;
+    }
+    .nine {
+        padding-left: 0.6%;
+    }
+    .ten > img {
+        max-width: 100%;
+    }
+    .ten {
+        padding-left: 0.6%;
+    }
+    .eleven > img {
+        max-width: 100%;
+    }
+    .eleven {
+        padding-left: 0.6%;
+    }
+    .twelve > img {
+        max-width: 100%;
+    }
+    .twelve {
+        padding-left: 0.6%;
+    }
+    .nine-twelve {
+        display: flex;
+        flex-direction: row;
+        width: 65.8%;
+        padding-top: 1.9%;
+    }
 }
