@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman';
+    color: #ffffff;
+    background-color: #000000;
+    ;
+}
+.header {
+    background-color: #80769B;
+    width: auto;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Times New Roman';
+}
+.menu {
+    font-family: 'Times New Roman';
+}
+.logo {
+    font-family: 'Times New Roman';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    font-family: 'Times New Roman';
+}
+
+@media (max-width:768px) {
+    .about1 {
+        margin-top: 35px;
+        margin-left: 33px;
+        width: 84%;
+    }
+
+    .video {
+        margin-top: 10%;
+        margin-left: 33px;
+        margin-bottom: 10%;
+    }
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .objects {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .object {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .one {
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+
+    .object > img {
+        max-width: 82.5%;
+    }
+
+    .ob {
+        padding-top: 5px;
+    }
+
+    .one1 > img {
+        max-width: 0;
+    }
+
+    .three1 > img {
+        max-width: 0;
+    }
+
+    .six1 > img {
+        max-width: 0;
+    }
+}
+
+@media (min-width:769px) {
+    .frame {
+        aspect-ratio: 1311/1923;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 4.5%;
+        margin-right: 4.5%;
+        margin-top: 0.6%;
+    }
+
+    .video {
+        margin-left: 20px;
+        padding-bottom: 24px;
+    }
+
+    .about1 {
+        margin-top: 24px;
+        margin-left: 20px;
+    }
+
+    .about {
+        font: 'Times New Roman';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .download {
+        font: 'Times New Roman';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 18.4px;
+        text-decoration: none;
+        color: #ffffff;
+    }
+
+    .object > img {
+        width: 100%;
+    }
+
+    .object {
+        width: 33%;
+        padding-right: 0.5%;
+    }
+
+}
