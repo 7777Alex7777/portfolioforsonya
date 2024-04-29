@@ -104,13 +104,12 @@ body{
 
 @media (min-width:769px) {
     .frame {
-        aspect-ratio: 1311/6214;
         display: flex;
         flex-direction: column;
-        align-items: end;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 0.6%;
+        margin-top: 4.03%;
+        margin-bottom: 4.03%;
     }
 
     .video {
@@ -142,16 +141,43 @@ body{
     }
 
     .object > img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .object {
-        width: 96.6%;
-        margin-bottom: 1.6%;
+        margin-bottom: 0.61%;
+    }
+
+    .eight {
+        margin-bottom: 0;
     }
 
     .one {
-        margin-top: 1.8%;
+        width: 76.4%;
+        margin-left: 23.6%;
+    }
+
+    .four {
+        width: 45.8%;
+        margin-left: 11.4%;
+    }
+
+    .five {
+        width: 91.3%;
+    }
+
+    .six {
+        width: 91.3%;
+    }
+
+    .seven {
+        width: 59.3%;
+        margin-left: 22.2%;
+    }
+
+    .eight {
+        width: 59%;
+        margin-left: 6.6%;
     }
 
 }

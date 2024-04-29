@@ -104,7 +104,7 @@ body{
         aspect-ratio: 1311/2196;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 1.4%;
+        margin-top: 4.03%;
     }
 
     .about1 {
@@ -169,7 +169,7 @@ body{
         width: 38.4%;
     }
 
-    .six-seven {
+    .six {
         position: absolute;
         top: 52.5%;
         left: 46.8%;
@@ -178,14 +178,14 @@ body{
         flex-direction: row;
     }
 
-    .eight {
+    .seven {
         position: absolute;
         top: 57.7%;
         left: 3.3%;
         width: 39.3%;
     }
 
-    .nine {
+    .eight {
         position: absolute;
         top: 71.6%;
         left: 49.4%;

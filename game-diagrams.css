@@ -104,14 +104,13 @@ body{
 
 @media (min-width:769px) {
     .frame {
-        aspect-ratio: 1311/4273;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 0.6%;
-        margin-bottom: 0.8%;
+        margin-top: 4.03%;
+        margin-bottom: 4.03%;
     }
 
     .video {
@@ -148,7 +147,7 @@ body{
 
     .object {
         width: 91.5%;
-        margin-bottom: 0.2%;
+        margin-bottom: 0.61%;
     }
 
     

@@ -103,12 +103,12 @@ body{
 
 @media (min-width:769px) {
     .frame {
-        aspect-ratio: 1311/6300;
+        aspect-ratio: 1311/6569;
         display: flex;
         flex-direction: column;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 0.6%;
+        margin-top: 4.43%;
         margin-bottom: 0.8%;
     }
 
@@ -144,32 +144,25 @@ body{
         width: 100%;
     }
 
-    .object {
+    .ob {
         width: 100%;
-        margin-bottom: 0.9%;
+        margin-bottom: 4.43%;
     }
 
     .one-mobile {
         width: 0;
-        margin: 0;
-    }
-
-    .two {
-        margin: 0;
+        height: 0;
     }
 
     .three-mobile {
         width: 0;
-        margin: 0;
+        height: 0;
     }
 
-    .five {
-        margin: 0;
-    }
 
     .six-mobile {
         width: 0;
-        margin: 0;
+        height: 0;
     }
     
 }

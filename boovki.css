@@ -81,9 +81,10 @@ body{
     .container {
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 0.6%;
+        margin-top: 4.03%;
+        margin-bottom: 4.03%;
         position: relative;
-        aspect-ratio: 1311/2204;
+        aspect-ratio: 1311/1932;
     }
 
     .about1 {
@@ -113,30 +114,34 @@ body{
         max-width: 100%;
     }
 
-    .one {
+    .one-computer {
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 77.7%;
+        width: 77.9%;
+    }
+
+    .one-mobile {
+        width: 0;
     }
 
     .two {
         position: absolute;
-        top: 31.5%;
-        left: 27.8%;
-        width: 72.2%;
+        top: 39.5%;
+        left: 5%;
+        width: 29.8%;
     }
 
     .three {
         position: absolute;
-        top: 56%;
-        left: 0%;
-        width: 29.8%;
+        top: 36%;
+        left: 60.4%;
+        width: 34.8%;
     }
 
     .four {
         position: absolute;
-        top: 58.7%;
+        top: 55.9%;
         left: 44.6%;
         width: 45.5%;
     }

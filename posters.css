@@ -103,13 +103,12 @@ body{
 
 @media (min-width:769px) {
     .frame {
-        aspect-ratio: 1311/3130;
         display: flex;
         flex-direction: column;
         align-items: center;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 20px;
+        margin-top: 4.43%;
     }
 
     .video {
@@ -141,104 +140,42 @@ body{
     }
 
     .object > img {
-        width: 100%;
+        max-width: 100%;
     }
 
     .object {
         width: 100%;
-        margin-bottom: 0.9%;
+        margin-bottom: 4.43%;
+        margin-right: 0.61%;
     }
 
-    .one > img {
-        max-width: 100%;
-    }
     .one {
         background-color: #ffffff;
         width: 78.6%;
     }
     
-    .two > img {
-        max-width: 100%;
-    }
-    .three > img {
-        max-width: 100%;
-    }
-    .three {
-        padding-left: 0.6%;
-    }
-    .two-three {
+    .two-four {
         display: flex;
         flex-direction: row;
         width: 78.6%;
-        padding-top: 1.9%;
     }
 
-    .four > img {
-        max-width: 100%;
-    }
-    .five > img {
-        max-width: 100%;
-    }
-    .five {
-        padding-left: 0.6%;
-    }
-    .four-five {
+    .five-six {
         display: flex;
         flex-direction: row;
         width: 78.6%;
-        padding-top: 1.9%;
     }
 
-    .six > img {
-        max-width: 100%;
-    }
-    .seven > img {
-        max-width: 100%;
-    }
-    .seven {
-        padding-left: 0.6%;
-    }
-    .eight > img {
-        max-width: 100%;
-    }
-    .eight {
-        padding-left: 0.6%;
-    }
-    .six-seven-eight {
+
+    .seven-nine {
         display: flex;
         flex-direction: row;
         width: 100%;
-        padding-top: 1.9%;
     }
 
-    .nine > img {
-        max-width: 100%;
-    }
-    .nine {
-        padding-left: 0.6%;
-    }
-    .ten > img {
-        max-width: 100%;
-    }
-    .ten {
-        padding-left: 0.6%;
-    }
-    .eleven > img {
-        max-width: 100%;
-    }
-    .eleven {
-        padding-left: 0.6%;
-    }
-    .twelve > img {
-        max-width: 100%;
-    }
-    .twelve {
-        padding-left: 0.6%;
-    }
-    .nine-twelve {
+    .ten-thirteen {
         display: flex;
         flex-direction: row;
         width: 65.8%;
-        padding-top: 1.9%;
     }
 }

@@ -79,11 +79,6 @@ body{
 }
 
 @media (min-width:769px) {
-    .frame {
-        position: relative;
-        aspect-ratio: 1311/774;
-    }
-
     .about1 {
         margin-top: 24px;
         margin-left: 20px;
@@ -113,16 +108,16 @@ body{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        margin-bottom: 2%;
+        margin-bottom: 4.03%;
+        margin-top: 4.03%;
+        aspect-ratio: 1311/700;
     }
 
     .object {
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-top: 2%;
         max-width: 37%;
-        margin-top: 2%;
         padding-left: 10%;
     }
 

@@ -32,6 +32,13 @@ body{
 }
 
 @media (max-width:768px) {
+    .container {
+        aspect-ratio: 383/2548;
+        display: flex;
+        flex-direction: column;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+    }
     .about1 {
         margin-top: 35px;
         margin-left: 33px;
@@ -55,58 +62,54 @@ body{
         color: #000000;
     }
 
-    .objects {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 2%;
-    }
-
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-bottom: 10%;
-    }
-
     .object > img {
         max-width: 100%;
     }
 
+    .one-two {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
     .one {
-        width: 77%;
-        margin-left: 11%;
-        margin-top: 15%;
+        width: 96%;
+        margin-left: 1.6%;
+        margin-bottom: 10%;
     }
 
     .two {
-        width: 56.5%;
-        margin-left: 15%;
+        width: 63.2%;
+        margin-left: 9.7%;
     }
 
     .three {
-        width: 83.2%;
-        margin-left: 8%;
+        width: 93%;
+        margin-left: 3.1%;
+        margin-bottom: 10%;
     }
 
-    .four {
-        width: 100%;
+    .four-mobile {
+        width: 96.9%;
+        margin-left: 1.3%;
+        margin-bottom: 10%;
     }
 
-    .four1 {
+    .four-computer {
         width: 0;
     }
 
     .five {
-        width: 83.2%;
-        margin-left: 8%;
+        width: 93.2%;
+        margin-left: 3.4%;
+        margin-bottom: 10%;
     }
 
     .six {
-        width: 84.8%;
-        margin-left: 7%;
+        width: 94.8%;
+        margin-left: 2.6%;
+        margin-bottom: 10%;
     }
 }
 
@@ -117,7 +120,8 @@ body{
         flex-direction: column;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 1.8%;
+        margin-top: 4.43%;
+        margin-bottom: 5.14%;
     }
 
     .about1 {
@@ -144,8 +148,6 @@ body{
     }
 
     .one-two {
-        display: flex;
-        flex-direction: row;
         width: 100%;
         position: relative;
         aspect-ratio: 1311/426;
@@ -177,23 +179,28 @@ body{
 
     .three {
         width: 67%;
-        margin-top: 1.9%;
+        margin-top: 4.43%;
         margin-left: 26.7%;
     }
     
     .four-computer {
         width: 100%;
-        margin-top: 1.9%;
+        margin-top: 4.43%;
+    }
+
+    .four-mobile {
+        width: 0;
+        height: 0;
     }
 
     .five {
         width: 100%;
-        margin-top: 1.2%;
+        margin-top: 2.6%;
     }
 
     .six {
         width: 42%;
-        margin-top: 1.9%;
+        margin-top: 4.43%;
         margin-left: 36.1%;
     }
     
