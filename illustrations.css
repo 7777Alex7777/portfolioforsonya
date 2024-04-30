@@ -32,10 +32,20 @@ body{
 }
 
 @media (max-width:768px) {
+    .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
+    }
+
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .about {
@@ -56,45 +66,17 @@ body{
         color: #000000;
     }
 
-    .objects {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        margin-top: 3%;
+    .object > img {
+        max-width: 100%;
     }
 
     .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding-bottom: 3.5%;
+        margin-bottom: 14.4%;
     }
 
-    .name > img {
-        max-width: 90.4%;
-        margin-top: 3%;
-    }
-    .rat > img {
-        max-width: 95%;
-        padding-left: 5%;
-    }
-
-    .dog > img {
-        max-width: 70.3%;
-    }
-
-    .bat > img {
-        max-width: 77.6%;
-    }
-
-    .bees > img {
-        max-width: 58.2%;
-    }
-
-    .pig > img {
-        max-width: 89.7%;
+    .one {
+        width: 56.8%;
+        margin-left: 10%;
     }
 }
 
@@ -178,14 +160,14 @@ body{
         flex-direction: row;
     }
 
-    .seven {
+    .eight {
         position: absolute;
         top: 57.7%;
         left: 3.3%;
         width: 39.3%;
     }
 
-    .eight {
+    .seven {
         position: absolute;
         top: 71.6%;
         left: 49.4%;

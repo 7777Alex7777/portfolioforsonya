@@ -32,18 +32,16 @@ body{
 
 @media (max-width:768px) {
     .container {
-        width: 100%;
         display: flex;
-        justify-content: center;
-        align-self: center;
         flex-direction: column;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
     }
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .about {
@@ -64,17 +62,25 @@ body{
         color: #000000;
     }
 
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
+    .object > img {
+        max-width: 100%;
     }
 
-    img {
-        max-width: 85%;
+    .object {
+        margin-bottom: 14.4%;
     }
+
+    .one-computer {
+        margin: 0;
+        width: 0;
+        height: 0;
+    }
+
+    .two {
+        width: 80.2%;
+        margin-left: 6.8%;
+    }
+
 }
 
 @media (min-width: 769px) {
@@ -125,14 +131,14 @@ body{
         width: 0;
     }
 
-    .two {
+    .three {
         position: absolute;
         top: 39.5%;
         left: 5%;
         width: 29.8%;
     }
 
-    .three {
+    .two {
         position: absolute;
         top: 36%;
         left: 60.4%;

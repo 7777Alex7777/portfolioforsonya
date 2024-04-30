@@ -32,10 +32,19 @@ body{
 }
 
 @media (max-width:768px) {
+    .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
+    }
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .about {
@@ -69,7 +78,7 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding-bottom: 3.5%;
+        margin-bottom: 20.45%;
     }
 
     .name > img {
@@ -95,6 +104,10 @@ body{
 
     .pig > img {
         max-width: 89.7%;
+    }
+
+    .pig {
+        margin: 0;
     }
 }
 

@@ -32,18 +32,18 @@ body{
 
 @media (max-width:768px) {
     .container {
-        width: 100%;
         display: flex;
-        justify-content: center;
-        align-self: center;
         flex-direction: column;
-        margin-top: 10%;
-        margin-bottom: 10%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
+        margin-bottom: 12.85%;
     }
+    
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .about {
@@ -64,16 +64,13 @@ body{
         color: #000000;
     }
 
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0;
-        margin: 0;
+    .object > img {
+        max-width: 100%;
     }
 
-    img {
-        max-width: 85%;
+    .object {
+        margin: -0.7%;
+        width: 100%;
     }
 }
 

@@ -33,18 +33,20 @@ body{
 
 @media (max-width:768px) {
     .container {
-        aspect-ratio: 383/2548;
         display: flex;
         flex-direction: column;
         margin-left: 5.4%;
         margin-right: 5.4%;
+        margin-top: 12.85%;
     }
+
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
+
     .about {
-        width: 84%;
         font: 'Times New Roman';
         font-weight: 400;
         font-size: 20px;

@@ -32,10 +32,20 @@ body{
 }
 
 @media (max-width:768px) {
+    .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
+    }
+
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .video {
@@ -61,43 +71,33 @@ body{
         color: #ffffff;
     }
 
-    .objects {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .one {
-        margin-top: 10%;
-        margin-bottom: 10%;
-    }
-
     .object > img {
-        max-width: 82.5%;
+        max-width: 100%;
     }
 
     .ob {
-        padding-top: 5px;
+        margin-bottom: 14.4%;
     }
 
-    .one1 > img {
-        max-width: 0;
+    .nine {
+        width: 70.6%;
     }
 
-    .three1 > img {
-        max-width: 0;
+    .seven-nine {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;    
     }
 
-    .six1 > img {
-        max-width: 0;
+    .ten-thirteen {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .ten, .eleven, .twelve, .thirteen {
+        width: 49%;
     }
 }
 

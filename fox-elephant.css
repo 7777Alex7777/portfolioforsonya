@@ -33,10 +33,21 @@ body{
 }
 
 @media (max-width:768px) {
+    .frame {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 12.85%;
+        margin-bottom: 12.85%;
+    }
+
     .about1 {
-        margin-top: 35px;
-        margin-left: 33px;
-        width: 84%;
+        margin-left: 5.4%;
+        margin-right: 5.4%;
+        margin-top: 14.71%;
     }
 
     .video {
@@ -50,7 +61,7 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #000000;
+        color: #ffffff;
     }
     
     .download {
@@ -59,46 +70,15 @@ body{
         font-size: 20px;
         line-height: 23px;
         text-decoration: none;
-        color: #000000;
-    }
-
-    .objects {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .object {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .one {
-        margin-top: 10%;
-        margin-bottom: 10%;
+        color: #ffffff;
     }
 
     .object > img {
-        max-width: 82.5%;
+        max-width: 100%;
     }
 
-    .ob {
-        padding-top: 5px;
-    }
-
-    .one1 > img {
-        max-width: 0;
-    }
-
-    .three1 > img {
-        max-width: 0;
-    }
-
-    .six1 > img {
-        max-width: 0;
+    .four {
+        margin-bottom: 14.4%;
     }
 }
 
