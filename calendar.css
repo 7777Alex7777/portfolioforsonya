@@ -56,7 +56,7 @@ body{
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px;
         text-decoration: none;
         color: #ffffff;
@@ -65,7 +65,7 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px;
         text-decoration: none;
         color: #ffffff;
@@ -113,14 +113,13 @@ body{
         flex-direction: column;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 4.43%;
-        margin-bottom: 0.8%;
+        margin-top: 4.03%;
     }
 
     .video {
         margin-left: 20px;
         padding-bottom: 24px;
-        margin-bottom: 4.43%;
+        margin-bottom: 4.03%;
     }
 
     .about1 {

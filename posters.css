@@ -97,7 +97,7 @@ body{
     }
 
     .ten, .eleven, .twelve, .thirteen {
-        width: 49%;
+        width: 49.5%;
     }
 }
 
@@ -106,9 +106,10 @@ body{
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content: center;
         margin-left: 4.5%;
         margin-right: 4.5%;
-        margin-top: 4.43%;
+        margin-top: 4.03%;
     }
 
     .video {
@@ -145,8 +146,11 @@ body{
 
     .object {
         width: 100%;
-        margin-bottom: 4.43%;
         margin-right: 0.61%;
+    }
+
+    .ob {
+        margin-bottom: 4.43%;
     }
 
     .one {
@@ -157,13 +161,18 @@ body{
     .two-four {
         display: flex;
         flex-direction: row;
-        width: 78.6%;
+        width: 100%;
     }
 
     .five-six {
         display: flex;
         flex-direction: row;
-        width: 78.6%;
+        width: 66.4%;
+    }
+    
+    .six {
+        margin-left: 0.4%;
+        margin-right: 0;
     }
 
 
@@ -177,5 +186,23 @@ body{
         display: flex;
         flex-direction: row;
         width: 65.8%;
+    }
+
+    .eleven {
+        margin-left: 0.3%;
+    }
+
+    .twelve {
+        margin-left: 0.3%;
+    }
+
+    .thirteen {
+        margin-left: 0.3%;
+        margin-right: 0;
+    }
+
+    .nine {
+        width: 70.5%;
+        margin-right: 0;
     }
 }
