@@ -47,7 +47,7 @@ body{
     .about {
         font: 'Times New Roman';
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px;
         text-decoration: none;
         color: #000000;
@@ -56,7 +56,7 @@ body{
     .download {
         font: 'Times New Roman';
         font-weight: 400;
-        font-size: 20px;
+        font-size: 18px;
         line-height: 23px;
         text-decoration: none;
         color: #000000;
@@ -88,9 +88,8 @@ body{
         margin-left: 4.5%;
         margin-right: 4.5%;
         margin-top: 4.03%;
-        margin-bottom: 4.03%;
         position: relative;
-        aspect-ratio: 1311/1932;
+        aspect-ratio: 1311/1870;
     }
 
     .about1 {
@@ -147,7 +146,7 @@ body{
 
     .four {
         position: absolute;
-        top: 55.9%;
+        top: 50.9%;
         left: 44.6%;
         width: 45.5%;
     }
