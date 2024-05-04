@@ -114,7 +114,7 @@ body{
 @media (min-width:769px) {
     .frame {
         position: relative;
-        aspect-ratio: 1311/1276;
+        aspect-ratio: 1311/1284;
         margin-left: 4.5%;
         margin-right: 4.5%;
         margin-top: 1.4%;
@@ -156,9 +156,9 @@ body{
 
     .rat {
         position: absolute;
-        top: 13.7%;
-        left: 0%;
-        width: 48.9%;
+        top: 23.8%;
+        left: 8%;
+        width: 39.5%;
     }
 
     .dog {

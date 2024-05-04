@@ -74,10 +74,6 @@ body{
     .object > img {
         max-width: 100%;
     }
-
-    .object {
-        margin-top: -1%;
-    }
 }
 
 @media (min-width:769px) {

@@ -92,13 +92,25 @@ body{
 
     .ten-thirteen {
         display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 
-    .ten, .eleven, .twelve, .thirteen {
-        width: 49.3%;
+    .ob1 {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 1%;
     }
+
+    .ten, .eleven {
+        margin-bottom: -1%;
+    }
+
+    .eleven, .thirteen {
+        margin-left: 1.1%;
+    }
+
 }
 
 @media (min-width:769px) {
@@ -151,6 +163,11 @@ body{
 
     .ob {
         margin-bottom: 4.43%;
+    }
+
+    .ob1 {
+        display: flex;
+        flex-direction: row;
     }
 
     .one {
