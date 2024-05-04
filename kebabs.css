@@ -35,8 +35,6 @@ body{
     .frame {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
         margin-left: 5.4%;
         margin-right: 5.4%;
         margin-top: 12.85%;
@@ -74,8 +72,8 @@ body{
         padding-top: 2%;
     }
 
-    .object > img {
-        max-width: 82.5%;
+    .object > img { 
+        max-width: 100%;
     }
 }
 

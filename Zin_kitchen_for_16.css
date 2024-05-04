@@ -34,6 +34,8 @@ body{
     .container {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-left: 5.4%;
         margin-right: 5.4%;
         margin-top: 12.85%;
@@ -69,7 +71,7 @@ body{
     }
 
     .object {
-        margin: -0.9%;
+        margin-bottom: -0.9%;
         width: 100%;
     }
 }
